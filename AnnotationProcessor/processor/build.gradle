@@ -10,4 +10,9 @@ dependencies {
 
     compile 'com.squareup:javapoet:1.8.0'
     compile 'com.google.auto.service:auto-service:1.0-rc2'
+
+    testCompile 'com.google.android:android:4.0.1.2'
+    testCompile 'com.google.guava:guava:20.0'
+    testCompile 'com.google.truth:truth:0.30'
+    testCompile 'com.google.testing.compile:compile-testing:0.10'
 }
